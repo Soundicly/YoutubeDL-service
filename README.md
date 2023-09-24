@@ -1,10 +1,7 @@
-# Typescript-Template
-A template to work with typescript. Compatibility with docker, and nodemon.
+# YoutubeDL Service
 
-## How to use
-There are different npm scripts implemented:
+This is a microservice to download videos from youtube using youtube-dl.
 
-- `pnpm dev`
-- `pnpm build`
-- `pnpm start`
+## Usage
 
+Go to `/download?videoUrl={Valid youtube url}` or `/download?videoId={Valid youtube video id}`
